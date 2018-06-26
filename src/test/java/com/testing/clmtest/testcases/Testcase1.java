@@ -95,7 +95,7 @@ WebDriver driver = new InternetExplorerDriver(capabilities);
 	
   @AfterTest
  public void afterTest() {
-	  //driver.close();
+	  driver.close();
  } 
  
 	  
