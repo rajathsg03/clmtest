@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66634" started-at="2018-06-24T14:33:44Z" finished-at="2018-06-24T14:34:50Z">
+  <suite name="Default suite" duration-ms="112348" started-at="2018-06-26T01:54:35Z" finished-at="2018-06-26T01:56:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66634" started-at="2018-06-24T14:33:44Z" finished-at="2018-06-24T14:34:50Z">
+    <test name="Default test" duration-ms="112348" started-at="2018-06-26T01:54:35Z" finished-at="2018-06-26T01:56:27Z">
       <class name="com.testing.clmtest.testcases.Testcase1">
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="Login" duration-ms="66572" started-at="2018-06-24T20:03:44Z" finished-at="2018-06-24T20:04:50Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="Login" duration-ms="112328" started-at="2018-06-26T07:24:35Z" finished-at="2018-06-26T07:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="afterTest" is-config="true" duration-ms="60" started-at="2018-06-24T20:04:50Z" finished-at="2018-06-24T20:04:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-06-26T07:26:27Z" finished-at="2018-06-26T07:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

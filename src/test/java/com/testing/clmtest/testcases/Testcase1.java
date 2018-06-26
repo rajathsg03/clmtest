@@ -58,8 +58,9 @@ public class Testcase1 {
 		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
 		driver.get(utill.baseurl);
-		WebDriverWait wait = new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		//WebDriverWait wait = new WebDriverWait(driver,20);
+		//wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
 	 
 	  driver.findElement(By.name("username")).sendKeys(utill.uname);
 	  
@@ -70,7 +71,7 @@ public class Testcase1 {
 	
   @AfterTest
  public void afterTest() {
-	  driver.close();
+	  //driver.close();
  } 
  
 	  
