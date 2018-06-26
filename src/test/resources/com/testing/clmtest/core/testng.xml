@@ -1,0 +1,15 @@
+<suite name="SuiteName">
+	
+	
+	<test name="Testcase1" allow-return-values="true">
+		<classes>
+			<class name="com.testing.clmtest.testcases.Testcase1" />
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+</suite>
+

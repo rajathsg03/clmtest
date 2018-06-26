@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66634" started-at="2018-06-24T14:33:44Z" finished-at="2018-06-24T14:34:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66634" started-at="2018-06-24T14:33:44Z" finished-at="2018-06-24T14:34:50Z">
+      <class name="com.testing.clmtest.testcases.Testcase1">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="Login" duration-ms="66572" started-at="2018-06-24T20:03:44Z" finished-at="2018-06-24T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testing.clmtest.testcases.Testcase1@5abca1e0]" name="afterTest" is-config="true" duration-ms="60" started-at="2018-06-24T20:04:50Z" finished-at="2018-06-24T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testing.clmtest.testcases.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
