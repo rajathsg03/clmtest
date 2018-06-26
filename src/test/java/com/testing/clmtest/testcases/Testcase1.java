@@ -47,8 +47,32 @@ public class Testcase1 {
 		
 			
 	  //}
+	
+	/* Firefox
+	 ProfilesIni prof = new ProfilesIni()				
+FirefoxProfile ffProfile= prof.getProfile ("myProfile")
+ffProfile.setAcceptUntrustedCertificates(true) 
+ffProfile.setAssumeUntrustedCertificateIssuer(false)
+WebDriver driver = new FirefoxDriver (ffProfile)  
 	 
+	 */
 	 
+	 /* Chrome
+	  DesiredCapabilities handlSSLErr = DesiredCapabilities.chrome ()       
+handlSSLErr.setCapability (CapabilityType.ACCEPT_SSL_CERTS, true)
+WebDriver driver = new ChromeDriver (handlSSLErr); 
+	  */
+	
+	/* IE
+	 driver.navigate ().to ("javascript:document.getElementById('overridelink').click()");
+	 
+	 OR
+	 
+	 DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+System.setProperty("webdriver.ie.driver","IEDriverServer.exe");
+WebDriver driver = new InternetExplorerDriver(capabilities);
+	 */
 
 	
  @Test()
